@@ -1,0 +1,152 @@
+1.What is java first name?
+   a)java    b)teak
+   c)oak     d)cafe
+
+2.Expected output (3*16/4+11-8*(7+4)+9/3)? 
+    a)64      b)61
+    c)-62     c)-63
+3.Which java platform used to develop Mobile Applications?
+   a)Java SE      b)Java EE
+    c)Java ME     D)Java FX
+4.Which is Not a Java KeyWord?
+   a)enum     b)else
+   c)if       c)Do-While
+5.Code for Package Creation in CMD?
+   a)javac _d . cn.java    b)Javac -d . cn.java
+   c)java -d . cn.java     d)java _d . cn.java
+6.while(int x==4)
+	{
+	  s.o.p("x value is :");
+	 }	
+    a)x value is:4    b)x value is:
+    c)infinite        d)Error
+7.Syntax for Narrowing Typecasting?
+    a)Datatype Variable=variable;    b)Datatype Variable=Datatype;
+    c)Datatype Variable=(Datatype)variable;    d)Datatype Variable=(variable)Datatype;
+8.which is provide libraries to JVM?
+   a)JDk         b)JRE
+   c)Both        d)None of them
+9.Who is Father of Java?
+  a)Ryan Gosling  b)jake Gosling
+  cJames Gosling  d)Jhon Gosling
+10)Which Operator Evaluate all the operands?
+    a)||      b)&&
+    c)?:      d)%          
+11)
+
+class A
+{
+    static int first;
+ 
+    static String second;
+ 
+    static
+    {
+        System.out.println(1);
+ 
+        first = 100;
+    }
+ 
+    static
+    {
+        System.out.println(2);
+ 
+        second = "SECOND";
+    }
+}
+ 
+public class StaticInitializationBlock
+{
+    static
+    {
+        System.out.println(3);
+    }
+ 
+    public static void main(String[] args)
+    {
+        System.out.println(4);
+ 
+        System.out.println(A.first);
+ 
+        System.out.println(A.second);
+    }
+}
+12)class A
+{
+    static int i;
+ 
+    static
+    {
+        i = 100;
+ 
+        System.out.println(1);
+    }
+ 
+    static void staticMethod()
+    {
+        System.out.println(i);
+ 
+        System.out.println(2);
+    }
+}
+ 
+public class B
+{
+    static
+    {
+        System.out.println(3);
+    }
+ 
+    public static void main(String[] args)
+    {
+        System.out.println(4);
+ 
+        System.out.println(A.i);
+ 
+        A.staticMethod();
+    }
+}
+13)class A
+{
+    static int a = 50;
+ 
+    static
+    {
+        a = 50;
+    }
+ 
+    static
+    {
+        a = 50;
+    }
+}
+14)
+class A
+{
+    static int i;
+ 
+    static
+    {
+        System.out.println(1);
+ 
+        i = 100;
+    }
+}
+ 
+public class StaticInitializationBlock
+{
+    static
+    {
+        System.out.println(2);
+    }
+ 
+    public static void main(String[] args)
+    {
+        System.out.println(3);
+ 
+        System.out.println(A.i);
+    }
+}
+
+
+
